@@ -1,0 +1,41 @@
+.sort-canvas {
+    margin: auto;
+    margin-top: 100px;
+    width: 90%;
+    background-color: lightblue;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border: 2px solid black;
+}
+
+.sort-canvas-item {
+    height: 100%;
+    width: 30px;
+    background-color: red;
+    border: solid 1px black;
+}
+
+.sort-options {
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+}
+
+.sort-options-button {
+    padding: 10px 30px;
+    background-color: lightcoral;
+    border: none;
+}
+
+.sort-options-input {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sort-options-input > input {
+    margin-top: 5px;
+    padding: 10px;
+}
